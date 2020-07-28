@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="container my-5 mx-auto">
+        <h1 class="text-muted text-centered my-4">Weather App</h1>
+        <form class="change-location my-4 text-muted text-centered">
+            <label for="city">Enter a location</label>   
+            <input type="text" name="city" class="form-control p-4">
+
+        </form>
+        <div class="card shadow-lg rounded d-none ">
+            
+            <img src="https://via.placeholder.com/400x300"class="time card-img-top">
+            <div class="icon bg-light mx-auto text-center">
+                <img src="" alt=""> 
+            </div>
+            <div class="text-muted text-uppercase text-center details">
+                <h5 class="my-3">City name</h5>
+                <div class="my-3">weather condition</div>
+                <div class="display-4 my-4">
+                    <span>Temp</span>
+                    <span>&degC</span>
+                </div>
+                
+                <icon>
+                    <i class="far fa-bookmark"></i>
+                </icon>
+            </div>
+        </div>
+        <!-- <div class="card shadow-lg rounded favorite">
+            <img src="https://via.placeholder.com/400x300"class="time card-img-top">
+            <div class="icon bg-light mx-auto text-center">
+                <icon></icon>
+            </div>
+            <div class="text-muted text-uppercase text-center details">
+                <h5 class="my-3">City name</h5>
+                <div class="my-3">weather condition</div>
+                <div class="display-4 my-4">
+                    <span>Temp</span>
+                    <span>&degC</span>
+                </div>
+            </div>
+            
+        </div> -->
+    </div>
+    <script src="/script/forecast.js"></script>
+    <script src="/script/app.js"></script>
+</body>
+</html>
